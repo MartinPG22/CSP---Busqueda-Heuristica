@@ -37,12 +37,15 @@ This project focuses on solving two distinct problems: allocating ambulances in 
 ---
 
 ## 📂 Project Structure
-
-- **`csp/`**: Implementation of the CSP model for ambulance allocation.
-- **`astar/`**: Implementation of the A\* algorithm for patient transfer optimization.
-- **`heuristics/`**: Contains heuristic functions and their evaluations.
-- **`tests/`**: Test cases for both CSP and heuristic models.
-- **`data/`**: Input files and example maps for experiments.
+Redactar
+- **`parte 1/`**: Implementation of Ambulance Alocation.
+  - **`CSP-tests/`**: Implementation of the diferent scenarios for the problem
+  - **`CSP-calls.sh`**: Implementation of the A\* algorithm for patient transfer optimization.
+  - **`CSPParking.py`**: Implementation of the A\* algorithm for patient transfer optimization.
+- **`parte 2/`**: Contains heuristic functions and their evaluations.
+  - **`ASTAR-tests/`**: 
+  - **`ASTAR-calls.sh`**:
+  - **`ASTARTraslados.py`**:
 
 ---
 
