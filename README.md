@@ -37,16 +37,16 @@ This project focuses on solving two distinct problems: allocating ambulances in 
 ---
 
 ## 📂 Project Structure
-Redactar
-- **`parte 1/`**: Implementation of Ambulance Alocation.
-  - **`CSP-tests/`**: Implementation of the diferent scenarios for the problem
-  - **`CSP-calls.sh`**: Implementation of the A\* algorithm for patient transfer optimization.
-  - **`CSPParking.py`**: Implementation of the A\* algorithm for patient transfer optimization.
-- **`parte 2/`**: Contains heuristic functions and their evaluations.
-  - **`ASTAR-tests/`**: 
-  - **`ASTAR-calls.sh`**:
-  - **`ASTARTraslados.py`**:
 
+- **`parte 1/`**: Implementation of the **Ambulance Allocation** problem.
+  - **`CSP-tests/`**: Contains different test scenarios for the constraint satisfaction problem.
+  - **`CSP-calls.sh`**: Script to execute multiple test cases and obtain results for various maps.
+  - **`CSPParking.py`**: Implementation of the **CSP model** for ambulance parking allocation.
+
+- **`parte 2/`**: Implementation of **Patient Transfer Optimization** using heuristic search.
+  - **`ASTAR-tests/`**: Contains different test scenarios for the heuristic search problem.
+  - **`ASTAR-calls.sh`**: Script to execute multiple test cases and evaluate different heuristics.
+  - **`ASTARTraslados.py`**: Implementation of **A\*** search and heuristic functions for patient transport optimization.
 ---
 
 ## 🚀 How to Run
@@ -54,4 +54,10 @@ Redactar
 ### Part 1: CSP - Ambulance Allocation
 To test ambulance allocation scenarios, execute the provided script:
 ```bash
-bash csp/CSP-calls.sh
+csp/CSP-calls.sh
+```
+---
+
+## 👥 Authors
+- Alba Vidales Casado 
+- Martín Portugal González 
