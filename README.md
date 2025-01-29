@@ -49,15 +49,6 @@ This project focuses on solving two distinct problems: allocating ambulances in 
   - **`ASTARTraslados.py`**: Implementation of **A\*** search and heuristic functions for patient transport optimization.
 ---
 
-## 🚀 How to Run
-
-### Part 1: CSP - Ambulance Allocation
-To test ambulance allocation scenarios, execute the provided script:
-```bash
-csp/CSP-calls.sh
-```
----
-
 ## 👥 Authors
 - Alba Vidales Casado 
 - Martín Portugal González 
